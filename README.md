@@ -1,1 +1,1 @@
-# quantumult
+#自用规则 
