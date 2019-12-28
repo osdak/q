@@ -13,3 +13,6 @@ host-keyword, office, direct
 host-keyword, microsof, direct
 host-keyword, hotmail, direct
 host-suffix, live.com, direct
+host-suffix, onenote.com, direct
+host-suffix, windows.net, direct
+host-suffix, windows.com, direct
