@@ -6,9 +6,10 @@ host-suffix, 1drv.com, direct
 host-suffix, live.net, direct
 host-suffix, skype.com, direct
 host-suffix, hockeyapp.net, direct
-host-suffix, my.sharepoint.com, direct
+host-suffix, sharepoint.com, direct
 host-keyword, onedrive, direct
 host-suffix, live.com, direct
 host-keyword, office, direct
 host-keyword, microsof, direct
 host-keyword, hotmail, direct
+host-suffix, live.com, direct
