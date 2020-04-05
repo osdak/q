@@ -1,0 +1,31 @@
+/*字体阴影*/ 
+*{text-shadow:0.01em 0.01em 0.1em #999999 !important;} 
+
+/*全局雅黑字体*/ 
+*:not([class*="icon"]):not(i){font-family: "Microsoft YaHei" !important;} 
+*{font-weight:500!important;} 
+
+/*去除下划线*/ 
+*{text-decoration:none!important} 
+a:hover{text-decoration:none!important} 
+
+a{ 
+/*color: #014A8F;*/ 
+-webkit-transition-property:color; 
+-webkit-transition-duration: 0.0s; 
+} 
+
+/*指向文字加粗*/ 
+a:hover { 
+/*color: #0000FF ;*/ 
+-webkit-transition-property:color; 
+-webkit-transition-duration: 0.0s; 
+font-weight:bold 
+} 
+
+/*访问过链接红色*/ 
+a:visited, a:visited *, a:active, a:active * {color: #FF0000 !important;} 
+/*淡蓝色文字效果*/ 
+a{-webkit-transition: all 0.3s ease-out;} 
+a:hover{color: #39F !important;text-shadow:-5px 3px 18px #39F !important;-webkit-transition: all 0.3s ease-out;} 
+*::-webkit-selection {background: #333333 !important; color: #00FF00 !important; }
