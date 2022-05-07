@@ -443,19 +443,6 @@ DOMAIN,wego.here.com,PROXY
 # > Alphabet
 DOMAIN-SUFFIX,go.dev,PROXY
 DOMAIN-SUFFIX,golang.org,PROXY
-# ---(Apple)---
-DOMAIN-SUFFIX,appsto.re,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN,amp-api.podcasts.apple.com,PROXY
-DOMAIN,beta.music.apple.com,PROXY
-DOMAIN,books.itunes.apple.com,PROXY
-DOMAIN,lookup-api.apple.com,PROXY
-DOMAIN,radio.itunes.apple.com,PROXY
-# > Web Preview
-DOMAIN,apps.apple.com,PROXY
-DOMAIN,books.apple.com,PROXY
-DOMAIN,itunes.apple.com,PROXY
-DOMAIN,tv.apple.com,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,linkedin.com,PROXY
