@@ -1,0 +1,10 @@
+#!name= Redirect Apple News to 🇺🇸US
+#!desc=只作用于 Apple News，通过重写地区参数，强制使用国际版（美国版）的新闻服务。
+
+[URL Rewrite]
+# 假设 Apple News 请求中包含类似 country_code 参数
+(^https?:\/\/gateway\.icloud\.com\/.*)(country_code=[A-Z]{2})(.*) $1country_code=US$3 header
+(^https?:\/\/gateway\.icloud\.com\/.*)(environment=[a-z/-]{4,})(.*) $1environment=prod$3 header
+
+[MITM]
+hostname = gateway.icloud.com
