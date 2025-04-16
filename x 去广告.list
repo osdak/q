@@ -1,0 +1,10 @@
+#!name=Block X Ads
+#!desc=Block X (Twitter) ads in Loon
+#!system=ios
+
+[Rule]
+DOMAIN,ads.twitter.com,REJECT
+DOMAIN,ads-twitter.com,REJECT
+DOMAIN,ads-api.twitter.com,REJECT
+DOMAIN,ads-bidder-api.twitter.com,REJECT
+DOMAIN,advertising.twitter.com,REJECT
